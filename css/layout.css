@@ -426,6 +426,48 @@ fieldset[disabled] .btn-theme {
   color: #fff;
 }
 
+
+/*------------------------------------------------------------------
+    [Design Writings]
+------------------------------------------------------------------*/
+.design_writings {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background: url(../img/1920x1080/03.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 250px 0 200px;
+}
+
+.design_writings:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(81, 87, 105, 0.4);
+  content: " ";
+}
+
+.design_writings .design_writings-title {
+  font-size: 70px;
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  .design_writings .design_writings-title {
+    font-size: 50px;
+  }
+}
+
+.design_writings .design_writings-text {
+  font-size: 25px;
+  color: #fff;
+}
+
+
 /*------------------------------------------------------------------
   	[Service]
 ------------------------------------------------------------------*/
