@@ -36,7 +36,7 @@ window.initMap = function() {
     scrollwheel: false,
     streetViewControl: false,
     mapTypeControl: false,
-    center: Kanpur, // Kanpur.
+    center: Bengaluru, // myCity.
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
     }
@@ -45,8 +45,8 @@ window.initMap = function() {
   var marker = new google.maps.Marker({
     map: map,
     icon: image,
-    title: 'Kanpur',
-    position: kanpur
+    title: 'Bengaluru',
+    position: Bengaluru
   });
 
   map.mapTypes.set(customMapTypeId, customMapType);
